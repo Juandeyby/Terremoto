@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/mochila_image" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/MochilaTex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila" />
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_1" />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_2" />
+
+            <TextView
+                android:id="@+id/textView12"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_3" />
+
+            <TextView
+                android:id="@+id/textView13"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_4" />
+
+            <TextView
+                android:id="@+id/textView14"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_5" />
+
+            <TextView
+                android:id="@+id/textView15"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_6" />
+
+            <TextView
+                android:id="@+id/textView16"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_7" />
+
+            <TextView
+                android:id="@+id/textView17"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_8" />
+
+            <TextView
+                android:id="@+id/textView18"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_9" />
+
+            <TextView
+                android:id="@+id/textView19"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_10" />
+
+            <TextView
+                android:id="@+id/textView20"
+                style="@style/Vinetas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mochila_11" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
