@@ -6,11 +6,13 @@
     <item
         android:id="@+id/action_add"
         android:icon="@drawable/interroga"
+        android:title="action_add"
         app:showAsAction="always" />
 
     <item
         android:id="@+id/mochila"
         android:icon="@drawable/mochila"
+        android:title="mochila"
         app:showAsAction="always" />
 
 </menu>
